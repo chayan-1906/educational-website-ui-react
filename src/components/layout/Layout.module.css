@@ -78,7 +78,19 @@
     gap: 0.5rem;
 }
 
-.details>:nth-child(1) {
+.details > :nth-child(1) {
     font-size: 1rem;
     font-weight: bold;
+}
+
+.content {
+    display: flex;
+    height: 100%;
+    /*align-items: center;*/
+    margin: 4rem auto auto;
+}
+
+.content > div {
+    width: 100%;
+    min-width: 75vh;
 }

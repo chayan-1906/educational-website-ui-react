@@ -3,11 +3,18 @@ import css from './Layout.module.css'
 import moment from "moment/moment"
 import {BiSearch} from "react-icons/bi"
 import personImage from '../../assets/profile.png'
+import {Sidebar} from "../sidebar/Sidebar.jsx";
+import {Navigate, Outlet, useLocation} from "react-router-dom";
 
 export const Layout = () => {
+    const {pathname} = useLocation()
+
     return (
         <div className={css.container}>
-            <div>Sidebar</div>
+            <Sidebar/>
+
+            {/* making the dashboard as the default route */}
+            {pathname === '/' && <Navigate to='/dashboard'/>}
 
             <div className={css.dashboard}>
                 <div className={css.topBaseGradients}>
@@ -32,6 +39,8 @@ export const Layout = () => {
                         </div>
                     </div>
                 </div>
+
+                <div className={css.content}><Outlet/></div>
             </div>
         </div>
     )
