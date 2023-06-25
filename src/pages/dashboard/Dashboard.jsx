@@ -2,6 +2,7 @@ import React from 'react'
 import css from './Dashboard.module.css'
 import {cardsData, groupNumber} from "../../data/data.jsx";
 import {Statistics} from "../../components/statistics/Statistics.jsx";
+import {Orders} from "../../components/orders/Orders.jsx";
 
 export const Dashboard = () => {
     return (
@@ -43,9 +44,7 @@ export const Dashboard = () => {
                 <Statistics/>
             </div>
 
-            <div className={css.orders}>
-                orders
-            </div>
+            <Orders/>
         </div>
     )
 }

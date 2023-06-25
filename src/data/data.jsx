@@ -7,7 +7,7 @@ export const cardsData = [
         amount: 42056,
     },
     {
-        title: "Orders",
+        title: "Orders.jsx",
         change: -14,
         amount: 52125.03,
     },
