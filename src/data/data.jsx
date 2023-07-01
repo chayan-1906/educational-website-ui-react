@@ -84,7 +84,7 @@ export const INITIAL_EVENTS = [
     },
     {
         id: createEventId(),
-        title: "Payment Shedules",
+        title: "Payment Schedules",
         start: moment(todayStr).add(5, "days").format("YYYY-MM-DD") + 'T13:00:00'
     },
     {

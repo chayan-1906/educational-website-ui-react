@@ -32,10 +32,10 @@ export const Layout = () => {
                     </div>
 
                     <div className={css.profile}>
-                        <img src={personImage} alt='person image'/>
+                        <img src={personImage} alt='person-image'/>
                         <div className={css.details}>
-                            <span>Denis Steven</span>
-                            <span>denissteven@gmail.com</span>
+                            <span>Padmanabha Das</span>
+                            <span>padmanabhadas9647@gmail.com</span>
                         </div>
                     </div>
                 </div>
