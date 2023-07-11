@@ -63,7 +63,7 @@ let todayStr = moment().format("YYYY-MM-DD")  // YYYY-MM-DD of today
 export const INITIAL_EVENTS = [
     {
         id: createEventId(),
-        title: 'Lunch Pary',
+        title: 'Lunch Party',
         start: todayStr + 'T09:00:00',
 
     },
