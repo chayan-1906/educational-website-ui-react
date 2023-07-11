@@ -2,7 +2,7 @@
 
 ## Available Scripts
 
-### Live Demo: 
+### Live Demo: https://kanban-trello-board.netlify.app/
 
 In the project directory, you can run:
 
