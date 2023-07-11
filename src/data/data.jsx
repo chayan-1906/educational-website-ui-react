@@ -155,7 +155,7 @@ export const boardData = {
                 },
                 {
                     id: 13,
-                    title: "Modular structre",
+                    title: "Modular structure",
                     description: "Write css in form of modules to reduce the naming conflicts"
                 }
             ]

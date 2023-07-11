@@ -87,9 +87,9 @@
 .content {
     display: flex;
     height: 100%;
-    align-items: center;
+    /*align-items: center;*/
     /*margin-top: -4rem;*/
-    margin: auto;
+    /*margin: auto;*/
 }
 
 .content > div {
