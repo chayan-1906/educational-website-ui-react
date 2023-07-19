@@ -20,3 +20,4 @@ The build is minified and the filenames include the hashes.
 Your app is ready to be deployed!
 
 ### Preview
+https://github.com/chayan-1906/kanban-trello-board-ui-react/assets/82430454/7db2aefc-1d9d-4600-be83-3411054f6037
